@@ -18,7 +18,6 @@ export default class Tooltip {
     } else {
       this.tooltipBox.style.left = `${pageX + 20}px`;
     }
-    console.log(pageX + 240, window.innerWidth);
   }
 
   // Remove a tooltip e os eeventos de move e leave
