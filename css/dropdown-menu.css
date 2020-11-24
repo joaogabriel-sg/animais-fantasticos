@@ -1,48 +1,55 @@
 [data-dropdown] {
-    position: relative;
+  position: relative;
 }
 
 [data-dropdown] .dropdown-menu {
-    display: none;
+  display: none;
 }
 
 [data-dropdown]:hover .dropdown-menu,
 [data-dropdown].active .dropdown-menu {
-    display: block;
-    animation: show-up .5s forwards;
+  display: block;
+  animation: show-up 0.5s forwards;
 }
 
 @keyframes show-up {
-    from {
-        opacity: 0;
-        transform: translate3d(0, 30px, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .dropdown-menu {
-    background: #ee5544;
-    border: 2px solid #222222;
-    position: absolute;
-    top: 38px;
-    z-index: 200;
+  background: #ee5544;
+  border: 2px solid #222222;
+  position: absolute;
+  top: 38px;
+  z-index: 200;
 }
 
 .dropdown-menu::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -10px;
-    width: 0;
-    height: 0;
-    border-bottom: 10px solid #ee5544;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #ee5544;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
 }
 
 .dropdown-menu a:hover {
-    color: #ffffff;
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  [data-dropdown] .dropdown-menu {
+    display: block;
+    animation: show-up 0.5s forwards;
+  }
 }

@@ -1,13 +1,13 @@
 .tooltip {
-    background: rgba(0, 0, 0, .6);
-    max-width: 170px;
-    box-shadow: 0 0 0 2px #ffbb55, 0 0 0 6px rgba(0, 0, 0, .6);
-    border-radius: 2px;
-    padding: .5rem;
-    position: absolute;
-    z-index: 500;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: bold;
-    font-size: .875rem;
-    color: #ffffff;
+  background: rgba(0, 0, 0, 0.6);
+  max-width: 170px;
+  box-shadow: 0 0 0 2px #ffbb55, 0 0 0 6px rgba(0, 0, 0, 0.6);
+  border-radius: 2px;
+  padding: 0.5rem;
+  position: absolute;
+  z-index: 500;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #ffffff;
 }
