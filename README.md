@@ -2,8 +2,8 @@
  <h1>🐺 Animais Fantásticos 🐻</h1>
 </div>
 
-**Animais Fantásticos** is the project developed in the [Origamid's ES6 Complete JavaScript course](https://www.origamid.com/)  
-See live on [Animais Fantásticos 🔥]()
+**Animais Fantásticos** is the project developed in the [Origamid's ES6 Complete JavaScript course](https://www.origamid.com/).
+See live on [Animais Fantásticos 🔥](https://joaogabriel-sg.github.io/animais-fantasticos/)
 
 ## 📚 What did I learn from the project??
 
